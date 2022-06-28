@@ -1,0 +1,71 @@
+:root {
+    --sec-header-bg-color: rgb(166, 208, 243);
+}
+
+.main-header {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(113, 191, 215, 0.635) 15%, rgba(0,82,143,1) 100%);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 12px -2px, rgba(0, 0, 0, 0.3) 0px 0px 7px -3px; */
+}
+
+.main-header-logo {
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.main-header-title {
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-right: 2vw;
+}
+
+.main-header-functions {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-right: auto;
+}
+
+.main-header-function-name {
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 1vw;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.main-header-function-name:hover {
+    background-color: var(--sec-header-bg-color);
+    box-shadow: rgb(38, 57, 77) 10px -30px 30px -10px;
+}
+
+.main-header-function-name-selected {
+    background-color: var(--sec-header-bg-color);
+    box-shadow: rgb(38, 57, 77) 10px -30px 60px -30px;
+    color: black;
+    text-shadow: 0px 1vw 20px rgb(0, 0, 0);
+}
+
+.main-header-menu {
+    height: 100%;
+    /* border: 1px solid black; */
+    align-items: center;
+    display: flex;
+    padding-inline: 2vw;
+    color: white;
+}
+
+.main-header-menu:hover {
+    background-color: rgba(68, 128, 225, 0.5);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

@@ -1,0 +1,88 @@
+.intraday-trade-maker-notes {
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.intraday-trade-stock-selector {
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:azure;
+}
+
+.intraday-trade-stock-selector label {
+    margin-left: 30vh;
+    margin-right: auto;
+}
+
+.intraday-trade-stock-selector select {
+    margin-right: 30vh;
+    width: 10vh;
+}
+
+.intraday-trade-parameter-setter {
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:cornsilk;
+}
+
+.intraday-trade-parameter-setter label {
+    margin-inline: 1vh;
+}
+
+.intraday-trade-parameter-setter button {
+    width: 10vh;
+    margin-inline: 5vh;
+}
+
+.intraday-trade-maker-position-display {
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:blanchedalmond;
+}
+
+.intraday-trade-maker-position-display div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.intraday-trade-maker-buttons {
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:darksalmon;
+}
+
+.intraday-trade-maker-buttons button {
+    height: 3vh;
+    width: 20vh;
+    margin-inline: 5vh;
+}
+
+.intraday-trade-maker-plot {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+.intraday-trade-maker-plot > div {
+    width: 90vh;
+}

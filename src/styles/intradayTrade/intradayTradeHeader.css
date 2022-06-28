@@ -1,0 +1,44 @@
+.intraday-trade-body-header {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    background: var(--sec-header-bg-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 20px -10px;
+}
+
+.intraday-trade-header-feature-name {
+    /* border: 1px solid black; */
+    border: none;
+    height: 100%;
+    width: 25vh;
+    display: flex;
+    justify-content: center;
+    padding-inline: 5vh;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    position: relative;
+}
+
+.intraday-trade-header-feature-name > div > div {
+    margin-block: 0.5vh;
+}
+
+.intraday-trade-header-feature-name input {
+    position: absolute;
+    left: 0;
+    height: 8vh;
+    width: 25vh;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.intraday-trade-header-feature-name-selected {
+    background: linear-gradient(00deg, rgba(255,255,255,0.1) 0%, rgba(92, 92, 238, 0.5) 50%, rgba(255,255,255,0.1) 100%);
+    /* box-shadow: rgb(38, 57, 77) 0px 10px 30px -20px; */
+}
+
+
